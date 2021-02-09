@@ -1,0 +1,13 @@
+MSHELL v1.0 by @Creator54
+
+Usage:
+
+  help  help menu
+  clr/clear   clears the screen
+
+Bugs/stuff to fix:
+  cd  - does not work idk y
+  ctrl+l
+  exit code  - $? currently gives the exit code for $? 
+
+This Project is licensed under GPL-3.0

@@ -14,22 +14,13 @@ void start(){
   out("$ ");
 }
 
-void help(){
-  system("clear");
-  out("MSHELL v1.0 by @Creator54");
-  out("\nUsage:");
-  out("\n\thelp \t\thelp menu");
-  out("\n\tclr  \t\tclears the screen");
-  out("\n\nThis Project is licensed under GPL-3.0\n");
-}
-
 void repl(){
   start();
   flag=0;
   getline(std::cin,keypress);
 
   //switches cant be used for strings ;(
-  if (keypress=="help") help();
+  if (keypress=="help") system("less help");
   else if (keypress=="clr") system("clear");
   else if (keypress=="exit") exit;
   else system(keypress.c_str()); //https://stackoverflow.com/questions/30691299/variables-in-system-call-c
