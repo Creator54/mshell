@@ -9,7 +9,7 @@ std::string keypress;
 void start(){
   if(flag){
     system("clear");
-    out("Welcome to MSHELL. Use :help\n");
+    out("Welcome to MSHELL. Use help\n");
   }
   out("$ ");
 }
